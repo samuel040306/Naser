@@ -1,0 +1,31 @@
+joint_index,joint_name,joint_type,body_name,qpos_address,dof_address,joint_range,motor_index,actuator_name,ctrl_range,group,controlled_index
+0,floating_base_joint,free,pelvis,,,,,,,root,
+1,left_hip_pitch_joint,hinge,left_hip_pitch_link,,,"[-2.5307, 2.8798]",0,left_hip_pitch,"[-88.0, 88.0]",leg,0
+2,left_hip_roll_joint,hinge,left_hip_roll_link,,,"[-0.5236, 2.9671]",1,left_hip_roll,"[-88.0, 88.0]",leg,1
+3,left_hip_yaw_joint,hinge,left_hip_yaw_link,,,"[-2.7576, 2.7576]",2,left_hip_yaw,"[-88.0, 88.0]",leg,2
+4,left_knee_joint,hinge,left_knee_link,,,"[-0.087267, 2.8798]",3,left_knee,"[-139.0, 139.0]",leg,3
+5,left_ankle_pitch_joint,hinge,left_ankle_pitch_link,,,"[-0.87267, 0.5236]",4,left_ankle_pitch,"[-50.0, 50.0]",leg,4
+6,left_ankle_roll_joint,hinge,left_ankle_roll_link,,,"[-0.2618, 0.2618]",5,left_ankle_roll,"[-50.0, 50.0]",leg,5
+7,right_hip_pitch_joint,hinge,right_hip_pitch_link,,,"[-2.5307, 2.8798]",6,right_hip_pitch,"[-88.0, 88.0]",leg,6
+8,right_hip_roll_joint,hinge,right_hip_roll_link,,,"[-2.9671, 0.5236]",7,right_hip_roll,"[-88.0, 88.0]",leg,7
+9,right_hip_yaw_joint,hinge,right_hip_yaw_link,,,"[-2.7576, 2.7576]",8,right_hip_yaw,"[-88.0, 88.0]",leg,8
+10,right_knee_joint,hinge,right_knee_link,,,"[-0.087267, 2.8798]",9,right_knee,"[-139.0, 139.0]",leg,9
+11,right_ankle_pitch_joint,hinge,right_ankle_pitch_link,,,"[-0.87267, 0.5236]",10,right_ankle_pitch,"[-50.0, 50.0]",leg,10
+12,right_ankle_roll_joint,hinge,right_ankle_roll_link,,,"[-0.2618, 0.2618]",11,right_ankle_roll,"[-50.0, 50.0]",leg,11
+13,waist_yaw_joint,hinge,torso_link,,,"[-2.618, 2.618]",12,waist_yaw,"[-88.0, 88.0]",upper_body,12
+14,left_shoulder_pitch_joint,hinge,left_shoulder_pitch_link,,,"[-3.0892, 2.6704]",15,left_shoulder_pitch,"[-25.0, 25.0]",upper_body,15
+15,left_shoulder_roll_joint,hinge,left_shoulder_roll_link,,,"[-1.5882, 2.2515]",16,left_shoulder_roll,"[-25.0, 25.0]",upper_body,16
+16,left_shoulder_yaw_joint,hinge,left_shoulder_yaw_link,,,"[-2.618, 2.618]",17,left_shoulder_yaw,"[-25.0, 25.0]",upper_body,17
+17,left_elbow_joint,hinge,left_elbow_link,,,"[-1.0472, 2.0944]",18,left_elbow,"[-25.0, 25.0]",upper_body,18
+18,left_wrist_roll_joint,hinge,left_wrist_roll_rubber_hand,,,"[-1.97222, 1.97222]",19,left_wrist_roll,"[-25.0, 25.0]",upper_body,19
+19,right_shoulder_pitch_joint,hinge,right_shoulder_pitch_link,,,"[-3.0892, 2.6704]",22,right_shoulder_pitch,"[-25.0, 25.0]",upper_body,22
+20,right_shoulder_roll_joint,hinge,right_shoulder_roll_link,,,"[-2.2515, 1.5882]",23,right_shoulder_roll,"[-25.0, 25.0]",upper_body,23
+21,right_shoulder_yaw_joint,hinge,right_shoulder_yaw_link,,,"[-2.618, 2.618]",24,right_shoulder_yaw,"[-25.0, 25.0]",upper_body,24
+22,right_elbow_joint,hinge,right_elbow_link,,,"[-1.0472, 2.0944]",25,right_elbow,"[-25.0, 25.0]",upper_body,25
+23,right_wrist_roll_joint,hinge,right_wrist_roll_rubber_hand,,,"[-1.97222, 1.97222]",26,right_wrist_roll,"[-25.0, 25.0]",upper_body,26
+24,waist_roll_joint,hinge,waist_roll,,,,13,waist_roll,"[-50.0, 50.0]",upper_body,13
+25,waist_pitch_joint,hinge,waist_pitch,,,,14,waist_pitch,"[-50.0, 50.0]",upper_body,14
+26,left_wrist_pitch_joint,hinge,left_wrist_pitch,,,,20,left_wrist_pitch,"[-5.0, 5.0]",upper_body,20
+27,left_wrist_yaw_joint,hinge,left_wrist_yaw,,,,21,left_wrist_yaw,"[-5.0, 5.0]",upper_body,21
+28,right_wrist_pitch_joint,hinge,right_wrist_pitch,,,,27,right_wrist_pitch,"[-5.0, 5.0]",upper_body,27
+29,right_wrist_yaw_joint,hinge,right_wrist_yaw,,,,28,right_wrist_yaw,"[-5.0, 5.0]",upper_body,28

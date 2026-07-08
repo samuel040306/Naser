@@ -1,0 +1,239 @@
+{
+  "robot": "unitree_g1",
+  "model_label": "g1_23dof",
+  "generated_at": "2026-07-08T11:28:28",
+  "limits_by_index": {
+    "0": {
+      "joint_name": "left_hip_pitch_joint",
+      "actuator_name": "left_hip_pitch",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "1": {
+      "joint_name": "left_hip_roll_joint",
+      "actuator_name": "left_hip_roll",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "2": {
+      "joint_name": "left_hip_yaw_joint",
+      "actuator_name": "left_hip_yaw",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "3": {
+      "joint_name": "left_knee_joint",
+      "actuator_name": "left_knee",
+      "lower": -139.0,
+      "upper": 139.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "4": {
+      "joint_name": "left_ankle_pitch_joint",
+      "actuator_name": "left_ankle_pitch",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "5": {
+      "joint_name": "left_ankle_roll_joint",
+      "actuator_name": "left_ankle_roll",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "6": {
+      "joint_name": "right_hip_pitch_joint",
+      "actuator_name": "right_hip_pitch",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "7": {
+      "joint_name": "right_hip_roll_joint",
+      "actuator_name": "right_hip_roll",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "8": {
+      "joint_name": "right_hip_yaw_joint",
+      "actuator_name": "right_hip_yaw",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "9": {
+      "joint_name": "right_knee_joint",
+      "actuator_name": "right_knee",
+      "lower": -139.0,
+      "upper": 139.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "10": {
+      "joint_name": "right_ankle_pitch_joint",
+      "actuator_name": "right_ankle_pitch",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "11": {
+      "joint_name": "right_ankle_roll_joint",
+      "actuator_name": "right_ankle_roll",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "leg"
+    },
+    "12": {
+      "joint_name": "waist_yaw_joint",
+      "actuator_name": "waist_yaw",
+      "lower": -88.0,
+      "upper": 88.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "15": {
+      "joint_name": "left_shoulder_pitch_joint",
+      "actuator_name": "left_shoulder_pitch",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "16": {
+      "joint_name": "left_shoulder_roll_joint",
+      "actuator_name": "left_shoulder_roll",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "17": {
+      "joint_name": "left_shoulder_yaw_joint",
+      "actuator_name": "left_shoulder_yaw",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "18": {
+      "joint_name": "left_elbow_joint",
+      "actuator_name": "left_elbow",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "19": {
+      "joint_name": "left_wrist_roll_joint",
+      "actuator_name": "left_wrist_roll",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "22": {
+      "joint_name": "right_shoulder_pitch_joint",
+      "actuator_name": "right_shoulder_pitch",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "23": {
+      "joint_name": "right_shoulder_roll_joint",
+      "actuator_name": "right_shoulder_roll",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "24": {
+      "joint_name": "right_shoulder_yaw_joint",
+      "actuator_name": "right_shoulder_yaw",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "25": {
+      "joint_name": "right_elbow_joint",
+      "actuator_name": "right_elbow",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "26": {
+      "joint_name": "right_wrist_roll_joint",
+      "actuator_name": "right_wrist_roll",
+      "lower": -25.0,
+      "upper": 25.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "13": {
+      "joint_name": "waist_roll_joint",
+      "actuator_name": "waist_roll",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "14": {
+      "joint_name": "waist_pitch_joint",
+      "actuator_name": "waist_pitch",
+      "lower": -50.0,
+      "upper": 50.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "20": {
+      "joint_name": "left_wrist_pitch_joint",
+      "actuator_name": "left_wrist_pitch",
+      "lower": -5.0,
+      "upper": 5.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "21": {
+      "joint_name": "left_wrist_yaw_joint",
+      "actuator_name": "left_wrist_yaw",
+      "lower": -5.0,
+      "upper": 5.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "27": {
+      "joint_name": "right_wrist_pitch_joint",
+      "actuator_name": "right_wrist_pitch",
+      "lower": -5.0,
+      "upper": 5.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    },
+    "28": {
+      "joint_name": "right_wrist_yaw_joint",
+      "actuator_name": "right_wrist_yaw",
+      "lower": -5.0,
+      "upper": 5.0,
+      "source": "ctrl_range",
+      "group": "upper_body"
+    }
+  }
+}

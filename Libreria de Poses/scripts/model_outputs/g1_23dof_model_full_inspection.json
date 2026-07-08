@@ -1019,25 +1019,21 @@
   ],
   "upper_body_motor_indices": [
     12,
+    13,
+    14,
     15,
     16,
     17,
     18,
     19,
+    20,
+    21,
     22,
     23,
     24,
     25,
-    26
-  ],
-  "modelo_operativo": "g1_23dof_active_upper_body",
-  "excluded_29dof_only_indices": [
-    13,
-    14,
-    20,
-    21,
+    26,
     27,
     28
-  ],
-  "nota_operativa": "Aunque el XML conserva actuadores del modelo 29 DoF, la librería de poses para G1 23 DoF solo usa waist yaw, 5 joints del brazo izquierdo y 5 joints del brazo derecho."
+  ]
 }

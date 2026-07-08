@@ -1,0 +1,18 @@
+{
+  "robot": "unitree_g1",
+  "modelo": "g1_23dof",
+  "descripcion": "Pose segura neutral oficial para la librería de poses G1 23 DoF.",
+  "posiciones": {
+    "12": 0.00133,
+    "15": -0.04299,
+    "16": 0.14,
+    "17": 0.05236,
+    "18": 1.05747,
+    "19": 0.0,
+    "22": -0.042555,
+    "23": -0.2168,
+    "24": 0.15708,
+    "25": 1.073175,
+    "26": 0.0
+  }
+}
