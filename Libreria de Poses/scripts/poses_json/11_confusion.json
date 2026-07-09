@@ -1,0 +1,45 @@
+{
+  "nombre_rutina": "11_confusion",
+  "fecha_creacion": "2026-07-09 10:34:48",
+  "robot": "unitree_g1",
+  "modelo": "g1_23dof",
+  "requiere_robot_quieto": true,
+  "descripcion": "pose de confusion para interacción social del Unitree G1 23 DoF.",
+  "numero_pasos": 2,
+  "pasos": [
+    {
+      "nombre": "pose confusion",
+      "posiciones": {
+        "12": 0.0,
+        "15": -0.699015,
+        "16": 0.0056,
+        "17": 0.89012,
+        "18": -0.38739,
+        "19": -1.972,
+        "22": -0.699015,
+        "23": -0.0248,
+        "24": -0.89012,
+        "25": -0.38739,
+        "26": 1.20292
+      },
+      "duracion": 1.8
+    },
+    {
+      "nombre": "sostener confusion",
+      "posiciones": {
+        "12": 0.0,
+        "15": -0.699015,
+        "16": 0.0056,
+        "17": 0.89012,
+        "18": -0.38739,
+        "19": -1.972,
+        "22": -0.699015,
+        "23": -0.0248,
+        "24": -0.89012,
+        "25": -0.38739,
+        "26": 1.20292
+      },
+      "duracion": 1.0
+    }
+  ]
+}
