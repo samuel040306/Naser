@@ -56,7 +56,7 @@
         "25": -0.685785,
         "26": -0.11832
       },
-      "duracion": 1.0
+      "duracion": 1.6
     },
     {
       "nombre": "puño derecho con cadera",
@@ -73,7 +73,7 @@
         "25": 0.74337,
         "26": -0.3944
       },
-      "duracion": 1.5
+      "duracion": 1.9
     }
 ,
     {
@@ -91,7 +91,7 @@
         "25": -0.685785,
         "26": -0.11832
       },
-      "duracion": 1.0
+      "duracion": 1.6
     },
     {
       "nombre": "puño derecho con cadera",
@@ -108,7 +108,7 @@
         "25": 0.74337,
         "26": -0.3944
       },
-      "duracion": 1.5
+      "duracion": 1.9
     },
     {
       "nombre": "guardia",
@@ -125,7 +125,7 @@
         "25": -0.88995,
         "26": 2.8e-05
       },
-      "duracion": 1.5
+      "duracion": 1.9
     },
     {
       "nombre": "Pose segura neutral",
