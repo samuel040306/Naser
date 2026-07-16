@@ -1,0 +1,76 @@
+{
+  "version_esquema": 1,
+  "descripcion": "Catálogo de poses permitidas para la interacción por palabras bandera del Unitree G1 23 DoF.",
+  "poses": {
+    "sin_pose": {
+      "archivo": null,
+      "descripcion": "No ejecutar movimiento físico.",
+      "permitida_en_fisico": true
+    },
+    "pose_segura": {
+      "archivo": "0_pose_segura.json",
+      "descripcion": "Pose segura de referencia.",
+      "permitida_en_fisico": true
+    },
+    "saludo_derecha": {
+      "archivo": "1_saludo_derecha.json",
+      "descripcion": "Saludo con el brazo derecho.",
+      "permitida_en_fisico": true
+    },
+    "saludo_formal": {
+      "archivo": "2_saludo_formal.json",
+      "descripcion": "Saludo formal.",
+      "permitida_en_fisico": true
+    },
+    "saludo_izquierda": {
+      "archivo": "3_saludo_izq.json",
+      "descripcion": "Saludo con el brazo izquierdo.",
+      "permitida_en_fisico": true
+    },
+    "boxeo": {
+      "archivo": "4_boxeo.json",
+      "descripcion": "Demostración de boxeo.",
+      "permitida_en_fisico": true
+    },
+    "dab": {
+      "archivo": "5_dab.json",
+      "descripcion": "Pose dab.",
+      "permitida_en_fisico": true
+    },
+    "saludo_arriba_derecha": {
+      "archivo": "6_saludo_arriba_der.json",
+      "descripcion": "Saludo elevado con el brazo derecho.",
+      "permitida_en_fisico": true
+    },
+    "hablar": {
+      "archivo": "7_hablar.json",
+      "descripcion": "Gesticulación asociada al habla.",
+      "permitida_en_fisico": true
+    },
+    "fuerza": {
+      "archivo": "8_fuerza.json",
+      "descripcion": "Pose de fuerza.",
+      "permitida_en_fisico": true
+    },
+    "despejar_espacio": {
+      "archivo": "9_quitense.json",
+      "descripcion": "Gesto para solicitar que despejen el área.",
+      "permitida_en_fisico": true
+    },
+    "chocar_cinco": {
+      "archivo": "10_chocar_cinco_der.json",
+      "descripcion": "Gesto para chocar los cinco.",
+      "permitida_en_fisico": true
+    },
+    "confusion": {
+      "archivo": "11_confusion.json",
+      "descripcion": "Gesto de confusión.",
+      "permitida_en_fisico": true
+    },
+    "siu": {
+      "archivo": "12_siu.json",
+      "descripcion": "Pose de celebración siu.",
+      "permitida_en_fisico": true
+    }
+  }
+}

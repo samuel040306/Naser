@@ -1,0 +1,667 @@
+{
+  "version_esquema": 1,
+  "configuracion_general": {
+    "idioma": "es",
+    "intencion_fallback": "no_entendido",
+    "seleccion_respuesta": "aleatoria",
+    "seleccion_pose": "aleatoria",
+    "modo_ejecucion_predeterminado": "hablar_y_posar",
+    "desfase_pose_segundos": 1.0
+  },
+  "intenciones": [
+    {
+      "id": "siu",
+      "habilitada": true,
+      "prioridad": 120,
+      "palabras_bandera": [
+        "siu",
+        "siuu",
+        "siiu",
+        "ciu",
+        "cristiano",
+        "ronaldo",
+        "celebración de ronaldo",
+        "pose de ronaldo"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Haré la celebración siu.",
+          "archivo_audio": "siu_01.wav"
+        },
+        {
+          "texto": "Activando la celebración siu.",
+          "archivo_audio": "siu_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "siu"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "boxeo",
+      "habilitada": true,
+      "prioridad": 120,
+      "palabras_bandera": [
+        "boxeo",
+        "boxear",
+        "pose de boxeo",
+        "posición de boxeo",
+        "ponte en guardia",
+        "tira golpes",
+        "modo boxeo"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Haré una demostración de boxeo.",
+          "archivo_audio": "boxeo_01.wav"
+        },
+        {
+          "texto": "Activando la pose de boxeo.",
+          "archivo_audio": "boxeo_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "boxeo"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "dab",
+      "habilitada": true,
+      "prioridad": 120,
+      "palabras_bandera": [
+        "dab",
+        "pose dab",
+        "hacer el dab",
+        "hacer un dab"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Haré un dab.",
+          "archivo_audio": "dab_01.wav"
+        },
+        {
+          "texto": "Activando la pose dab.",
+          "archivo_audio": "dab_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "dab"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "fuerza",
+      "habilitada": true,
+      "prioridad": 120,
+      "palabras_bandera": [
+        "fuerza",
+        "pose de fuerza",
+        "mostrar fuerza",
+        "muestra tus músculos",
+        "haz músculos",
+        "modo fuerza",
+        "fisicoculturista",
+        "qué tan fuerte eres"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Mostraré mi pose de fuerza.",
+          "archivo_audio": "fuerza_01.wav"
+        },
+        {
+          "texto": "Activando la pose de fuerza.",
+          "archivo_audio": "fuerza_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "fuerza"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "chocar_cinco",
+      "habilitada": true,
+      "prioridad": 115,
+      "palabras_bandera": [
+        "choca esos cinco",
+        "chócala",
+        "dame esos cinco",
+        "dame cinco",
+        "choca los cinco",
+        "high five"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Choca esos cinco.",
+          "archivo_audio": "chocar_cinco_01.wav"
+        },
+        {
+          "texto": "Adelante. Estoy listo para chocar los cinco.",
+          "archivo_audio": "chocar_cinco_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "chocar_cinco"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "despejar_espacio",
+      "habilitada": true,
+      "prioridad": 110,
+      "palabras_bandera": [
+        "quítense",
+        "hazte a un lado",
+        "háganse a un lado",
+        "despejen el área",
+        "hagan espacio",
+        "dejen espacio",
+        "retrocedan",
+        "aléjense",
+        "mantengan distancia",
+        "necesito espacio"
+      ],
+      "respuestas": [
+        {
+          "texto": "Por favor, mantengan una distancia segura.",
+          "archivo_audio": "despejar_espacio_01.wav"
+        },
+        {
+          "texto": "Por favor, despejen el área y permitan el paso.",
+          "archivo_audio": "despejar_espacio_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "despejar_espacio"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "saludo_formal",
+      "habilitada": true,
+      "prioridad": 100,
+      "palabras_bandera": [
+        "saludo formal",
+        "saluda formalmente",
+        "preséntate formalmente",
+        "mucho gusto",
+        "es un placer conocerte",
+        "encantado de conocerte"
+      ],
+      "respuestas": [
+        {
+          "texto": "Mucho gusto. Soy el robot G1 de Robotics 4.0.",
+          "archivo_audio": "saludo_formal_01.wav"
+        },
+        {
+          "texto": "Reciba un cordial saludo de Robotics 4.0.",
+          "archivo_audio": "saludo_formal_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "saludo_formal"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "pose_aleatoria",
+      "habilitada": true,
+      "prioridad": 90,
+      "palabras_bandera": [
+        "haz una pose",
+        "hacer una pose",
+        "muéstrame una pose",
+        "quiero ver una pose",
+        "sorpréndeme",
+        "haz algo divertido",
+        "haz algo chévere",
+        "haz un movimiento",
+        "haz una demostración",
+        "enséñame algo"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Elegiré una pose para mostrarte.",
+          "archivo_audio": "pose_aleatoria_01.wav"
+        },
+        {
+          "texto": "De acuerdo. Haré una pose de demostración.",
+          "archivo_audio": "pose_aleatoria_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "boxeo",
+        "dab",
+        "fuerza",
+        "siu"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 1.0
+    },
+    {
+      "id": "presentacion_robot",
+      "habilitada": true,
+      "prioridad": 85,
+      "palabras_bandera": [
+        "quién eres",
+        "cómo te llamas",
+        "cuál es tu nombre",
+        "preséntate",
+        "dime quién eres",
+        "qué eres",
+        "de qué empresa eres",
+        "quién te creó",
+        "eres el robot g1"
+      ],
+      "respuestas": [
+        {
+          "texto": "Soy el robot humanoide G1 de Robotics 4.0, preparado para interacción y demostraciones en entornos de seguridad.",
+          "archivo_audio": "presentacion_01.wav"
+        },
+        {
+          "texto": "Soy G1, un robot humanoide de Robotics 4.0. En esta prueba puedo reconocer instrucciones, responder y ejecutar poses.",
+          "archivo_audio": "presentacion_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "capacidades",
+      "habilitada": true,
+      "prioridad": 84,
+      "palabras_bandera": [
+        "qué puedes hacer",
+        "cuáles son tus funciones",
+        "qué sabes hacer",
+        "para qué sirves",
+        "qué funciones tienes",
+        "qué movimientos haces",
+        "qué poses tienes"
+      ],
+      "respuestas": [
+        {
+          "texto": "Puedo reconocer instrucciones en español, responder por voz y ejecutar varias poses de demostración. La navegación permanece desactivada durante esta prueba.",
+          "archivo_audio": "capacidades_01.wav"
+        },
+        {
+          "texto": "En este modo puedo responder mediante palabras bandera y realizar poses autorizadas mientras permanezco detenido.",
+          "archivo_audio": "capacidades_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "hablar",
+      "habilitada": true,
+      "prioridad": 82,
+      "palabras_bandera": [
+        "puedes hablar",
+        "di algo",
+        "dime algo",
+        "quiero escucharte",
+        "cuéntame algo",
+        "movimiento de hablar",
+        "mueve los brazos mientras hablas"
+      ],
+      "respuestas": [
+        {
+          "texto": "Claro. Estoy listo para interactuar contigo.",
+          "archivo_audio": "hablar_01.wav"
+        },
+        {
+          "texto": "Puedo escucharte y responder mediante mi sistema local de interacción.",
+          "archivo_audio": "hablar_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "contactar_operador",
+      "habilitada": true,
+      "prioridad": 81,
+      "palabras_bandera": [
+        "llama al operador",
+        "contacta al operador",
+        "necesito un operador",
+        "llama a seguridad",
+        "contacta a seguridad",
+        "necesito seguridad",
+        "necesito un guardia",
+        "ayuda humana",
+        "hablar con una persona",
+        "llama al encargado"
+      ],
+      "respuestas": [
+        {
+          "texto": "La llamada automática al operador aún no está habilitada. Por favor, comunícate directamente con el personal de seguridad.",
+          "archivo_audio": "contactar_operador_01.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "ubicacion_no_configurada",
+      "habilitada": true,
+      "prioridad": 80,
+      "palabras_bandera": [
+        "dónde está",
+        "dónde queda",
+        "cómo llego",
+        "me puedes indicar",
+        "dónde están los baños",
+        "dónde está el baño",
+        "dónde está la salida",
+        "dónde puedo comer",
+        "dónde está recepción"
+      ],
+      "respuestas": [
+        {
+          "texto": "Esa ubicación todavía no está registrada. Un integrante del personal puede orientarte.",
+          "archivo_audio": "ubicacion_no_configurada_01.wav"
+        },
+        {
+          "texto": "Aún no tengo habilitada la información de rutas del lugar. Por favor, consulta al personal de seguridad.",
+          "archivo_audio": "ubicacion_no_configurada_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "acompanar_no_disponible",
+      "habilitada": true,
+      "prioridad": 80,
+      "palabras_bandera": [
+        "acompáñame",
+        "ven conmigo",
+        "sígueme",
+        "puedes acompañarme",
+        "llévame",
+        "guíame",
+        "muéstrame el camino",
+        "camina conmigo"
+      ],
+      "respuestas": [
+        {
+          "texto": "La navegación está desactivada durante esta prueba, por lo que permaneceré detenido.",
+          "archivo_audio": "navegacion_desactivada_01.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "sin_pose"
+      ],
+      "ejecutar_pose": false,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "solo_hablar",
+      "desfase_pose_segundos": 0.0
+    },
+    {
+      "id": "detenerse",
+      "habilitada": true,
+      "prioridad": 80,
+      "palabras_bandera": [
+        "alto",
+        "detente",
+        "párate",
+        "no te muevas",
+        "quédate quieto",
+        "permanece quieto",
+        "deja de moverte",
+        "frena",
+        "stop"
+      ],
+      "respuestas": [
+        {
+          "texto": "Entendido. Permaneceré detenido.",
+          "archivo_audio": "detenerse_01.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "sin_pose"
+      ],
+      "ejecutar_pose": false,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "solo_hablar",
+      "desfase_pose_segundos": 0.0
+    },
+    {
+      "id": "esperar",
+      "habilitada": true,
+      "prioridad": 79,
+      "palabras_bandera": [
+        "espera",
+        "espera un momento",
+        "un momento",
+        "aguarda",
+        "dame un segundo",
+        "dame un momento",
+        "pausa",
+        "quédate ahí"
+      ],
+      "respuestas": [
+        {
+          "texto": "De acuerdo. Esperaré aquí.",
+          "archivo_audio": "esperar_01.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "sin_pose"
+      ],
+      "ejecutar_pose": false,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "solo_hablar",
+      "desfase_pose_segundos": 0.0
+    },
+    {
+      "id": "estado_robot",
+      "habilitada": true,
+      "prioridad": 75,
+      "palabras_bandera": [
+        "cómo estás",
+        "cómo te encuentras",
+        "cómo te va",
+        "estás bien",
+        "estás funcionando",
+        "funcionas bien",
+        "cómo están tus sistemas",
+        "estás listo"
+      ],
+      "respuestas": [
+        {
+          "texto": "Estoy funcionando correctamente y listo para interactuar.",
+          "archivo_audio": "estado_01.wav"
+        },
+        {
+          "texto": "Mis sistemas de interacción están activos y permanezco detenido de forma segura.",
+          "archivo_audio": "estado_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "hablar"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "agradecimiento",
+      "habilitada": true,
+      "prioridad": 70,
+      "palabras_bandera": [
+        "gracias",
+        "muchas gracias",
+        "te agradezco",
+        "muy amable",
+        "bien hecho",
+        "buen trabajo"
+      ],
+      "respuestas": [
+        {
+          "texto": "Con gusto. Estoy aquí para ayudarte.",
+          "archivo_audio": "agradecimiento_01.wav"
+        },
+        {
+          "texto": "Es un placer ayudarte.",
+          "archivo_audio": "agradecimiento_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "saludo_formal"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "despedida",
+      "habilitada": true,
+      "prioridad": 68,
+      "palabras_bandera": [
+        "adiós",
+        "hasta luego",
+        "nos vemos",
+        "chao",
+        "chau",
+        "hasta pronto",
+        "me voy",
+        "hasta la próxima"
+      ],
+      "respuestas": [
+        {
+          "texto": "Hasta luego. Que tengas un buen día.",
+          "archivo_audio": "despedida_01.wav"
+        },
+        {
+          "texto": "Nos vemos pronto. Mantente seguro.",
+          "archivo_audio": "despedida_02.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "saludo_izquierda",
+        "saludo_formal"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    },
+    {
+      "id": "saludo",
+      "habilitada": true,
+      "prioridad": 60,
+      "palabras_bandera": [
+        "hola",
+        "buenos días",
+        "buenas tardes",
+        "buenas noches",
+        "qué tal",
+        "cómo vas",
+        "hey",
+        "oye robot",
+        "oye g1",
+        "un saludo",
+        "salúdame",
+        "di hola"
+      ],
+      "respuestas": [
+        {
+          "texto": "Hola. Soy el robot G1 de Robotics 4.0. ¿Cómo estás?",
+          "archivo_audio": "saludo_01.wav"
+        },
+        {
+          "texto": "Hola. Es un gusto saludarte.",
+          "archivo_audio": "saludo_02.wav"
+        },
+        {
+          "texto": "Buenos días. Estoy listo para interactuar contigo.",
+          "archivo_audio": "saludo_03.wav"
+        }
+      ],
+      "poses_candidatas": [
+        "saludo_derecha",
+        "saludo_arriba_derecha"
+      ],
+      "ejecutar_pose": true,
+      "permitida_en_fisico": true,
+      "modo_ejecucion": "hablar_y_posar",
+      "desfase_pose_segundos": 0.8
+    }
+  ],
+  "fallback": {
+    "id": "no_entendido",
+    "prioridad": 0,
+    "respuestas": [
+      {
+        "texto": "No entendí bien. ¿Puedes repetirlo con otras palabras?",
+        "archivo_audio": "no_entendido_01.wav"
+      },
+      {
+        "texto": "No logré identificar la instrucción. Por favor, repítela más claramente.",
+        "archivo_audio": "no_entendido_02.wav"
+      }
+    ],
+    "poses_candidatas": [
+      "confusion"
+    ],
+    "ejecutar_pose": true,
+    "permitida_en_fisico": true,
+    "modo_ejecucion": "hablar_y_posar",
+    "desfase_pose_segundos": 0.8
+  }
+}

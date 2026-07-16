@@ -1,0 +1,3 @@
+Interaccion Voz LLM/scripts/logs/*
+Interaccion Voz LLM/scripts/**/__pycache__/
+Interaccion Voz LLM/scripts/**/*.pyc
