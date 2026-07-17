@@ -1,0 +1,16 @@
+{
+  "frecuencia_muestreo": 16000,
+  "canales": 1,
+  "ancho_muestra_bytes": 2,
+  "duracion_trama_ms": 30,
+  "modo_vad": 2,
+  "duracion_calibracion_segundos": 2.0,
+  "multiplicador_ruido": 2.2,
+  "umbral_rms_minimo": 180,
+  "tramas_voz_consecutivas_inicio": 3,
+  "pre_audio_ms": 300,
+  "silencio_final_ms": 750,
+  "duracion_minima_voz_segundos": 0.3,
+  "duracion_maxima_intervencion_segundos": 8.0,
+  "tamano_cola_audio": 256
+}

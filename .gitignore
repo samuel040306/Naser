@@ -4,3 +4,5 @@ Interaccion Voz LLM/scripts/**/*.pyc
 **/__pycache__/
 *.py[cod]
 *_BACKUP_*.py
+Interaccion Voz LLM/.venv/
+Interaccion Voz LLM/scripts/recursos/capturas_locales/*.wav
