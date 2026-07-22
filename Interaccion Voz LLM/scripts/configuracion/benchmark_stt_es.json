@@ -1,0 +1,31 @@
+{
+  "descripcion": "Frases controladas para seleccionar el perfil STT local.",
+  "prompt": "Robot G1 de Robotics 4.0. Hola robot. Buenos días. Pose de siu. Fuerza. Dab. Boxeo. Choca esos cinco. Muchas gracias.",
+  "casos": [
+    {
+      "numero": 1,
+      "texto_esperado": "Hola robot, buenos días.",
+      "intencion_esperada": "saludo"
+    },
+    {
+      "numero": 2,
+      "texto_esperado": "Robot, puedes hacer una pose de siu.",
+      "intencion_esperada": "siu"
+    },
+    {
+      "numero": 3,
+      "texto_esperado": "Robot, muestra tu fuerza.",
+      "intencion_esperada": "fuerza"
+    },
+    {
+      "numero": 4,
+      "texto_esperado": "Robot, haz un dab.",
+      "intencion_esperada": "dab"
+    },
+    {
+      "numero": 5,
+      "texto_esperado": "Muchas gracias.",
+      "intencion_esperada": "agradecimiento"
+    }
+  ]
+}

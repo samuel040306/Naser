@@ -2,11 +2,16 @@
   "motor": "whisper.cpp",
   "idioma": "es",
   "ruta_ejecutable": "externos/whisper.cpp/build/bin/whisper-cli",
-  "ruta_modelo": "scripts/recursos/modelos/ggml-small-q5_0.bin",
+  "ruta_modelo": "scripts/recursos/modelos/ggml-base-q5_0.bin",
   "hilos": 0,
   "maximo_hilos": 8,
-  "timeout_segundos": 30,
+  "timeout_segundos": 45,
   "temperatura": 0.0,
+  "contexto_audio": 0,
+  "beam_size": 1,
+  "best_of": 1,
+  "sin_fallback": true,
+  "usar_gpu": true,
   "conservar_temporales": false,
-  "prompt_inicial": null
+  "prompt_inicial": "Robot G1 de Robotics 4.0. Comandos en español: hola robot, buenos días, pose de siu, muestra tu fuerza, haz un dab, boxeo, choca esos cinco, muchas gracias."
 }

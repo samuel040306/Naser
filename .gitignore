@@ -9,3 +9,6 @@ Interaccion Voz LLM/scripts/recursos/capturas_locales/*.wav
 Interaccion Voz LLM/externos/
 Interaccion Voz LLM/scripts/recursos/modelos/*.bin
 Interaccion Voz LLM/scripts/recursos/modelos/*.gguf
+Interaccion Voz LLM/scripts/recursos/benchmark_stt/*.wav
+Interaccion Voz LLM/scripts/recursos/benchmark_stt/**/*.wav
+Interaccion Voz LLM/scripts/logs/*.json

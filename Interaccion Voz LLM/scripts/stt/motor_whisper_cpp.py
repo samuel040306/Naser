@@ -22,6 +22,11 @@ class ConfiguracionWhisperCpp:
     maximo_hilos: int
     timeout_segundos: float
     temperatura: float
+    contexto_audio: int
+    beam_size: int
+    best_of: int
+    sin_fallback: bool
+    usar_gpu: bool
     conservar_temporales: bool
     prompt_inicial: Optional[str]
 
@@ -79,6 +84,21 @@ class ConfiguracionWhisperCpp:
         if self.temperatura < 0:
             raise ValueError(
                 "La temperatura no puede ser negativa."
+            )
+
+        if self.contexto_audio < 0:
+            raise ValueError(
+                "El contexto de audio no puede ser negativo."
+            )
+
+        if self.beam_size <= 0:
+            raise ValueError(
+                "El beam size debe ser mayor que cero."
+            )
+
+        if self.best_of <= 0:
+            raise ValueError(
+                "Best-of debe ser mayor que cero."
             )
 
     def resolver_hilos(self) -> int:
@@ -199,6 +219,11 @@ class MotorWhisperCpp:
             "-of",
             str(base_salida),
             "-nt",
+            "-np",
+            "-bs",
+            str(self.configuracion.beam_size),
+            "-bo",
+            str(self.configuracion.best_of),
         ]
 
         if self.configuracion.prompt_inicial:
@@ -208,6 +233,20 @@ class MotorWhisperCpp:
                     self.configuracion.prompt_inicial,
                 ]
             )
+
+        if self.configuracion.sin_fallback:
+            comando.append("-nf")
+
+        if self.configuracion.contexto_audio > 0:
+            comando.extend(
+                [
+                    "-ac",
+                    str(self.configuracion.contexto_audio),
+                ]
+            )
+
+        if not self.configuracion.usar_gpu:
+            comando.append("-ng")
 
         return comando
 
