@@ -1,0 +1,12 @@
+{
+  "motor": "whisper.cpp",
+  "idioma": "es",
+  "ruta_ejecutable": "externos/whisper.cpp/build/bin/whisper-cli",
+  "ruta_modelo": "scripts/recursos/modelos/ggml-small-q5_0.bin",
+  "hilos": 0,
+  "maximo_hilos": 8,
+  "timeout_segundos": 30,
+  "temperatura": 0.0,
+  "conservar_temporales": false,
+  "prompt_inicial": null
+}

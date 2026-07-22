@@ -6,3 +6,6 @@ Interaccion Voz LLM/scripts/**/*.pyc
 *_BACKUP_*.py
 Interaccion Voz LLM/.venv/
 Interaccion Voz LLM/scripts/recursos/capturas_locales/*.wav
+Interaccion Voz LLM/externos/
+Interaccion Voz LLM/scripts/recursos/modelos/*.bin
+Interaccion Voz LLM/scripts/recursos/modelos/*.gguf

@@ -276,6 +276,26 @@ class CapturadorLocalVAD:
     def detener(self) -> None:
         self._evento_detencion.set()
 
+    def descartar_audio_pendiente(self) -> int:
+        """
+        Elimina audio acumulado mientras el agente estaba
+        transcribiendo o procesando una interacción.
+
+        Retorna el número de fragmentos eliminados.
+        """
+        eliminados = 0
+
+        self._buffer_entrada.clear()
+
+        while True:
+            try:
+                self._cola_audio.get_nowait()
+                eliminados += 1
+            except queue.Empty:
+                break
+
+        return eliminados
+
     def _callback_audio(
         self,
         datos_entrada,
