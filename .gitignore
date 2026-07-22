@@ -12,3 +12,4 @@ Interaccion Voz LLM/scripts/recursos/modelos/*.gguf
 Interaccion Voz LLM/scripts/recursos/benchmark_stt/*.wav
 Interaccion Voz LLM/scripts/recursos/benchmark_stt/**/*.wav
 Interaccion Voz LLM/scripts/logs/*.json
+Interaccion Voz LLM/scripts/logs/diagnostico_pc2_*.txt
